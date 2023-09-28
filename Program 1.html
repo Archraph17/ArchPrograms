@@ -1,0 +1,52 @@
+<html>
+<head>
+    <title>Program 1</title>
+    <link rel="stylesheet" href="Programs.css">
+</head>
+<style>
+    body {
+        background-image: url(P1_background.jpg);
+        background-size: cover; 
+    }
+</style>
+<body>
+    <div class="P1-body">
+    <h1>Sum of Two Number</h1>
+    <div class="P1">
+    <b><label for="Num1">ENTER FIRST : </label></b>
+    <input type="number" id="num1"  onfocus="this.value=''"><br>
+
+    <b><label for="Num2">ENTER SECOND: </label></b>
+    <input type="number" id="num2" onfocus="this.value=''"><br/><br/>
+
+    <button onclick="addTwoNums()">COMPUTE</button><br><br>
+    <h1>The sum is</h1><h1 id="result"></h1>
+    <button onclick="ClearFields()">CLEAR</button><br/><br/>
+    <a href="index.html"><button>Back to Homepage</button></a>
+    </div>
+    </div>
+    <script>
+        function addTwoNums()
+        {
+            var num1 = parseFloat(document.getElementById('num1').value);
+            var num2 = parseFloat(document.getElementById('num2').value);
+
+            if (isNaN(num1) || isNaN(num2)) {
+                alert("Please enter valid numbers in both fields.");
+                return;
+            }
+
+            var result = num1 + num2;
+            document.getElementById('result').innerHTML =  result ;
+            document.getElementById('result').style.color = "white";
+        }
+
+        function ClearFields() {
+
+        document.getElementById("num1").value = "";
+        document.getElementById("num2").value = "";
+        document.getElementById("result").innerHTML = "";
+        }
+    </script>
+</body>
+</html>

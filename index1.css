@@ -1,0 +1,257 @@
+body {
+    margin: 10px auto;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(0, 162, 255);
+    text-align: center;
+}
+a {
+
+    font-family: 'Courier New', Courier, monospace;
+    display: inline-block;
+    font-size: 20px;
+    margin: 20px 5px auto;
+    text-decoration: none;
+    color: black;
+}
+
+
+h1 {
+    font-size: 150px;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 15%;
+    left: 81%;
+    z-index: 1;
+}
+
+p {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    transform: rotate(-90deg);
+    position: absolute;
+    top: 7%;
+    left: -14%;
+    z-index: 1;
+}
+
+h5 {
+    background-color: #2ecc71;
+    padding: 23px;
+    border: 5px outset teal;
+    border-radius: 10px;
+    box-shadow: 5px -1px 0px #003b05;
+    margin: 0px;
+}
+h5:hover {
+    color: transparent;
+    border-style: outset;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.3);
+    transform: translateX(3%);
+}
+
+.P {
+    background-image: url(BMO1.jpg);
+    display: block;
+    background-position: center;
+    margin: 5px 30px 5px auto;
+    width: 400px;
+    height: 270px;
+    padding: 0px;
+    border: 5px inset black;
+    background-color: #2ecc70a8;
+    border-radius: 10px;
+}
+.Programs {
+    position: relative;
+    margin-left: 380px;
+    width: 476px;
+    padding: 10px;
+    border: 2px outset teal;
+    border-radius: 3%;
+    box-shadow: 150px 0px 0px teal;
+    background-color: #2ecc70a8;
+
+}
+.P1{
+    background: rgb(255, 208, 147);
+    border: 5px outset rgb(63, 146, 201);
+    box-shadow: 5px -1px 0px rgb(255, 208, 147);
+}
+.P1:hover::after  {
+    content: "Finn";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(P1.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+    z-index: -1;
+}
+
+.P2{
+    background: rgb(255, 217, 0);
+    border: 5px outset black;
+    box-shadow: 5px -1px 0px rgb(255, 217, 0);
+}
+
+.P2:hover::after  {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(P2.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+    z-index: -1;
+}
+.P3{
+    background: snow;
+    border: 5px outset rgba(0, 47, 255, 0.733);
+    box-shadow: 5px -1px 0px snow;
+}
+.P3:hover::after  {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(P3.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+    z-index: -1;
+}
+
+.P4 {
+    background: rgb(155, 0, 0);
+    border: 5px outset rgb(0, 0, 0);
+    box-shadow: 5px -1px 0px rgb(155, 0, 0);
+}
+
+.P4:hover::after  {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(P4.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+    z-index: -1;
+}
+
+.P5 {
+    background: rgba(255, 71, 194, 0.911);
+    border: 5px outset rgb(255, 228, 78);
+    box-shadow: 5px -1px 0px rgba(255, 71, 194, 0.911);
+}
+
+.P5:hover::after  {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(P5.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+    z-index: -1;
+}
+
+.P6 {
+    background: rgba(255, 255, 255, 0.733);
+    border: 5px outset red;
+    box-shadow: 5px -1px 0px rgba(255, 255, 255, 0.733);
+}
+
+.P6:hover::after  {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(P6.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+    z-index: -1;
+}
+
+.P7{
+    background: rgb(255, 132, 18);
+    border: 5px outset rgb(255, 0, 0);
+    box-shadow: 5px -1px 0px rgb(255, 132, 18);
+}
+
+.P7:hover::after  {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(P7.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+    z-index: -1;
+}
+
+.P8{
+    background: rgba(0, 184, 0, 0.63);
+    border: 5px outset rgb(14, 122, 0);
+    box-shadow: 5px -1px 0px rgba(0, 184, 0, 0.63);
+}
+
+.P8:hover::after  {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(P8.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+    z-index: -1;
+}
+
+.P9 {
+    background: rgb(255, 122, 122);
+    border: 5px outset rgb(255, 253, 119);
+    box-shadow: 5px -1px 0px rgb(255, 122, 122);
+}
+
+.P9:hover::after  {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(P9.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+    z-index: -1;
+}
+
+.Back:hover {
+    color: black;
+    border-style: outset;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.3);
+    transform: translateX(3%);
+}
